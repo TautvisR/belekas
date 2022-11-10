@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: darkgoldenrod;
+    height: 160px;
+}
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    height: inherit;
+}
+.nav {
+    background-color: aquamarine;
+    height: 100px;
+}
+.nav li{
+    display: inline-block;
+    line-height: 100px;
+    font-size: 40px;
+    margin-right: 30px;
+    border: solid burlywood;
+    border-width: inherit;
+}
+.nav li a:hover{
+    background-color: rgb(0, 255, 51);
+}
+.wrapper a{
+    color: black;
+    background-color: burlywood;
+    font-family: 'Segoe UI';
+    text-decoration: none;
+    border: solid burlywood;
+    border-radius: 20px;
+}
+.sidewr {
+    grid-gap: 20px;
+    width: 150px;
+    height: 1000px;
+    background-color: burlywood;
+}
+.sidewr li{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.sidewr a{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    border: solid;
+    border-color: transparent;
+    border-radius: 20px;
+}
+.sidewr a:hover{
+    background-color: aqua;
+}
